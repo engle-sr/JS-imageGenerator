@@ -9,7 +9,8 @@ body {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   text-align: center;
-  background-color: #daeffb;
+  background-color: rgba(0, 0, 0, 0.836);
+  color: #fff;
 }
 
 .main {
@@ -36,7 +37,7 @@ button {
   margin: 1.5em auto;
   padding: 20px;
   border-radius: 40px;
-  background-color: royalblue;
+  background-color: rgb(89, 106, 158);
   color: #fff;
   border: none;
   font-size: 16px;
@@ -60,4 +61,6 @@ button:hover {
 figure {
   max-width: 1000px;
   margin: 0 auto;
+  border: double;
+  border-color: #fff;
 }
